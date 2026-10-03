@@ -1,0 +1,239 @@
+[
+  {
+    "id": "conv-01",
+    "user_id": "dungct",
+    "turns": [
+      "Chào bạn, mình tên là DũngCT.",
+      "Mình ở Đà Nẵng và đang làm backend engineer cho startup AI.",
+      "Mình thích Python, AI ứng dụng và cà phê sữa đá.",
+      "Đồ uống yêu thích là cà phê sữa đá.",
+      "Mình thường chạy bộ lúc 6 giờ sáng để tỉnh táo hơn.",
+      "Mình muốn bạn trả lời ngắn gọn, rõ ý và có ví dụ thực tế.",
+      "Tuần này mình đang ôn lại async Python.",
+      "Cuối tuần mình hay đi biển Mỹ Khê chụp ảnh.",
+      "Mục tiêu học tập quý này là xây được agent nhớ người dùng tốt hơn.",
+      "Bạn thử ghi nhớ các thông tin trên giúp mình nhé."
+    ],
+    "recall_questions": [
+      {
+        "question": "Mình tên gì và đồ uống yêu thích là gì?",
+        "expected_contains": ["DũngCT", "cà phê sữa đá"]
+      }
+    ]
+  },
+  {
+    "id": "conv-02",
+    "user_id": "dungct",
+    "turns": [
+      "Hôm nay mình quay lại sau một buổi họp dài.",
+      "Bạn có thể nhắc lại tên mình không?",
+      "Ngoài ra mình muốn bạn nhớ luôn style trả lời mình thích.",
+      "Khi giải thích kỹ thuật, hãy trả lời thành bullet ngắn và có ví dụ thực tế.",
+      "Mình vẫn đang đọc về memory architecture cho agent.",
+      "Mình muốn benchmark dễ đọc hơn nên nếu có thể hãy giữ câu trả lời gọn.",
+      "Chiều nay mình sẽ review lại data benchmark tiếng Việt.",
+      "Mình vẫn uống cà phê sữa đá như cũ.",
+      "Bạn thử nhớ lại xem đồ uống yêu thích của mình là gì.",
+      "Sau đó mình sẽ hỏi tiếp về nơi ở."
+    ],
+    "recall_questions": [
+      {
+        "question": "Nhắc lại style trả lời mình thích và đồ uống yêu thích của mình.",
+        "expected_contains": ["ngắn gọn", "cà phê sữa đá"]
+      },
+      {
+        "question": "Tên mình là gì và mình thích kiểu trả lời như thế nào?",
+        "expected_contains": ["DũngCT", "ngắn gọn"]
+      }
+    ]
+  },
+  {
+    "id": "conv-03",
+    "user_id": "dungct",
+    "turns": [
+      "Mình đang viết code Python cho benchmark agent.",
+      "À, mình đính chính một chút: giờ mình đang ở Huế chứ không còn ở Đà Nẵng mỗi ngày nữa.",
+      "Mình vẫn làm việc từ xa với team cũ.",
+      "Nếu bạn nhắc lại nơi ở thì nhớ lấy thông tin mới nhé.",
+      "Mình đang học thêm về RAG và evaluation.",
+      "Mình muốn bạn trả lời ngắn gọn và có ví dụ thực chiến khi nói về AI.",
+      "Tối qua mình đọc tài liệu về memory compaction khá lâu.",
+      "Mình thích cách giải thích có so sánh trade-off hơn là nói lý thuyết chung chung.",
+      "Hôm nay mình sửa dataset để các cuộc hội thoại tự nhiên hơn.",
+      "Bạn nhớ giúp mình là thông tin nơi ở đã thay đổi."
+    ],
+    "recall_questions": [
+      {
+        "question": "Hiện tại mình đang ở đâu?",
+        "expected_contains": ["Huế"]
+      }
+    ]
+  },
+  {
+    "id": "conv-04",
+    "user_id": "dungct",
+    "turns": [
+      "Ngoài kỹ thuật ra thì mình còn thích chạy bộ và nghe lo-fi buổi tối.",
+      "Món ăn yêu thích là mì Quảng.",
+      "Mình nuôi một bé corgi tên Bơ.",
+      "Buổi sáng mình thường pha cà phê rồi đọc issue mới.",
+      "Nếu có dịp gợi ý nghỉ ngơi thì cứ nhắc mình đi bộ ven sông Hương.",
+      "Mình không thích câu trả lời quá lan man, hãy trả lời ngắn gọn khi có thể.",
+      "Mỗi khi giải thích benchmark, bạn thử nêu thêm một ví dụ số liệu minh họa.",
+      "Mình thấy learning journal bằng markdown khá hợp với lab này.",
+      "Bạn có thể lưu những preference mang tính ổn định giúp mình.",
+      "Đặc biệt nhớ con corgi tên Bơ vì mình hay lấy ví dụ từ nó."
+    ],
+    "recall_questions": [
+      {
+        "question": "Món ăn yêu thích của mình là gì và mình nuôi con gì?",
+        "expected_contains": ["mì Quảng", "corgi"]
+      }
+    ]
+  },
+  {
+    "id": "conv-05",
+    "user_id": "dungct",
+    "turns": [
+      "Bạn có biết DũngCT không?",
+      "Nếu biết thì thử mô tả ngắn gọn mình là ai dựa trên những gì đã nhớ.",
+      "Mình đang quan tâm nhiều đến Python, AI agent và benchmark memory.",
+      "Mình hay dùng ví dụ thực tế từ startup hoặc side project.",
+      "Mình vẫn muốn câu trả lời ngắn và có cấu trúc.",
+      "Hôm qua mình viết thêm test cho User.md read write edit.",
+      "Mình cũng đang nghĩ về chuyện memory file phình to theo thời gian.",
+      "Nếu phải đánh đổi thì mình ưu tiên recall đúng hơn là câu văn quá hoa mỹ.",
+      "Bạn thử ghi nhớ thêm ưu tiên này nhé.",
+      "Lát nữa mình sẽ quay lại hỏi về nghề nghiệp hiện tại."
+    ],
+    "recall_questions": [
+      {
+        "question": "Bạn biết DũngCT là ai không? Hãy nhắc ngắn gọn tên và mối quan tâm chính của mình.",
+        "expected_contains": ["DũngCT", "Python", "AI"]
+      }
+    ]
+  },
+  {
+    "id": "conv-06",
+    "user_id": "dungct",
+    "turns": [
+      "Mình đính chính thêm một thông tin nghề nghiệp nhé.",
+      "Mình không còn làm backend engineer nữa, giờ chuyển sang MLOps engineer.",
+      "Công việc mới vẫn liên quan nhiều tới Python và pipeline cho AI.",
+      "Nhớ ưu tiên thông tin nghề nghiệp mới nếu có ai hỏi lại.",
+      "Mình vẫn ở Huế, chưa chuyển đi đâu cả.",
+      "Con corgi Bơ dạo này hay phá lúc mình họp online.",
+      "Mình vẫn muốn style trả lời ngắn gọn, có bullet và ví dụ thực chiến.",
+      "Tối nay mình sẽ benchmark lại hai agent trên cùng data.",
+      "Nếu nhắc lại nghề nghiệp, đừng nói backend engineer nữa nhé, vì đó là thông tin cũ.",
+      "Bạn thử nhớ cả correction lẫn thread mở từ các cuộc trước giúp mình."
+    ],
+    "recall_questions": [
+      {
+        "question": "Hiện tại mình làm nghề gì và mình còn ở Huế không?",
+        "expected_contains": ["MLOps engineer", "Huế"]
+      },
+      {
+        "question": "Nếu phải chọn giữa nghề cũ và nghề mới, nghề hiện tại của mình là gì?",
+        "expected_contains": ["MLOps engineer"]
+      }
+    ]
+  },
+  {
+    "id": "conv-07",
+    "user_id": "dungct",
+    "turns": [
+      "Sáng nay mình tiếp tục làm sạch benchmark data.",
+      "Mình muốn mỗi conversation có ít nhất 10 lượt và nghe tự nhiên hơn.",
+      "Mình đang thử thêm các câu hỏi kiểm tra recall chéo phiên.",
+      "Nếu bạn giải thích, hãy trả lời ngắn gọn và có ví dụ thực tế như mình từng nhắc.",
+      "Mình thấy nhiều agent nhớ sai khi người dùng đính chính thông tin cũ.",
+      "Phần này rất giống case nghề nghiệp của mình từ backend sang MLOps.",
+      "Mình cũng đang cân nhắc thêm confidence threshold vào bonus.",
+      "Bạn nhớ là mình ưu tiên benchmark có số liệu rõ ràng.",
+      "Mai mình sẽ trình bày lab này cho nhóm học cùng.",
+      "Lúc đó mình có thể hỏi lại về style trả lời và nơi ở hiện tại."
+    ],
+    "recall_questions": [
+      {
+        "question": "Mình thích style trả lời như thế nào và hiện đang ở đâu?",
+        "expected_contains": ["ngắn gọn", "Huế"]
+      }
+    ]
+  },
+  {
+    "id": "conv-08",
+    "user_id": "dungct",
+    "turns": [
+      "Hôm nay mình làm việc ở quán cà phê quen gần sông Hương.",
+      "Mình vẫn uống cà phê sữa đá nhưng đang cố giảm xuống còn một ly mỗi ngày.",
+      "Buổi trưa mình ăn mì Quảng và thấy đúng là món ruột.",
+      "Chiều nay mình sẽ viết phần reflection cho sinh viên.",
+      "Mình muốn nhấn mạnh trade-off giữa recall và token cost.",
+      "Nếu nói về memory file, hãy nhớ nó có thể tăng trưởng theo thời gian.",
+      "Mình cũng muốn ví dụ gắn với công việc MLOps hiện tại cho gần thực tế.",
+      "Bạn nhớ là mình đang ở Huế để dùng ví dụ địa phương nếu cần.",
+      "Con Bơ hôm nay lại ngủ cạnh bàn làm việc của mình.",
+      "Mình sẽ còn hỏi lại về đồ uống và món ăn yêu thích."
+    ],
+    "recall_questions": [
+      {
+        "question": "Đồ uống và món ăn yêu thích của mình là gì?",
+        "expected_contains": ["cà phê sữa đá", "mì Quảng"]
+      },
+      {
+        "question": "Hiện tại mình đang ở đâu và mình nuôi con gì?",
+        "expected_contains": ["Huế", "corgi"]
+      }
+    ]
+  },
+  {
+    "id": "conv-09",
+    "user_id": "dungct",
+    "turns": [
+      "Mình vừa thử benchmark lần đầu và thấy baseline quên mình rất nhanh.",
+      "Điều đó đúng như mong đợi vì nó chỉ có within-session memory.",
+      "Full agent thì khá hơn nhưng mình muốn câu trả lời còn tự nhiên hơn.",
+      "Mình nghĩ có thể thêm entity extraction ở mức bonus.",
+      "Cái khó là đừng làm User.md quá dài và lộn xộn.",
+      "Mình thích markdown vì dễ mở và dễ giải thích cho sinh viên.",
+      "Bạn nhớ là mình làm MLOps engineer chứ không còn là backend engineer nữa nhé.",
+      "Mình vẫn thích Python, AI ứng dụng và cách trình bày có ví dụ thực chiến.",
+      "Nếu tóm tắt mình, hãy nhắc đúng các ý chính đó.",
+      "Sau cuộc này mình sẽ hỏi một câu recall tổng hợp."
+    ],
+    "recall_questions": [
+      {
+        "question": "Tóm tắt ngắn về mình: tên, nghề nghiệp hiện tại và hai mối quan tâm kỹ thuật chính.",
+        "expected_contains": ["DũngCT", "MLOps engineer", "Python", "AI"]
+      }
+    ]
+  },
+  {
+    "id": "conv-10",
+    "user_id": "dungct",
+    "turns": [
+      "Đây là cuộc cuối trong benchmark mẫu.",
+      "Mình muốn kiểm tra xem agent có giữ được thông tin ổn định sau nhiều phiên không.",
+      "Thông tin ổn định gồm tên, nghề nghiệp mới, nơi ở hiện tại, đồ uống yêu thích và style trả lời.",
+      "Nếu có thông tin cũ mâu thuẫn thì phải ưu tiên bản đính chính mới hơn.",
+      "Mình nghĩ đây là phần sinh viên học được nhiều nhất từ lab.",
+      "Sau benchmark mình sẽ yêu cầu các bạn tự phản tư về memory decay.",
+      "Nếu sau này mình có nhắc lại Đà Nẵng như ví dụ cũ thì đừng lấy nó làm nơi ở hiện tại của bộ benchmark này nhé.",
+      "Mình cũng muốn họ thấy file memory tăng trưởng là chi phí thật.",
+      "Con Bơ chắc vẫn sẽ được nhớ vì nó quá dễ thương và dễ thành ví dụ.",
+      "Bạn chuẩn bị tinh thần cho câu recall tổng hợp nhé.",
+      "Xong cuộc này thì benchmark coi như đủ bộ dữ liệu 10 phiên."
+    ],
+    "recall_questions": [
+      {
+        "question": "Nhắc lại giúp mình: tên, nơi ở hiện tại, nghề nghiệp hiện tại, đồ uống yêu thích và style trả lời mình thích.",
+        "expected_contains": ["DũngCT", "Huế", "MLOps engineer", "cà phê sữa đá", "ngắn gọn"]
+      },
+      {
+        "question": "Nhắc lại giúp mình: tên, món ăn yêu thích và mình nuôi con gì.",
+        "expected_contains": ["DũngCT", "mì Quảng", "corgi"]
+      }
+    ]
+  }
+]

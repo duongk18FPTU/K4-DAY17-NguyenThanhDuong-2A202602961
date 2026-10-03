@@ -1,0 +1,3 @@
+# Minimal offline lab/test dependencies. Provider SDKs are optional.
+pytest>=8,<10
+python-dotenv>=1,<2
